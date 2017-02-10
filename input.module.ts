@@ -9,6 +9,7 @@ import { TestInputComponent }   from './input.component';
     declarations: [TestInputComponent],
     imports: [NgModule],
     providers: [],
-    entryComponents: [TestInputComponent]
+    entryComponents: [TestInputComponent],
+    exports:[TestInputComponent]
 })
 export class TestInputModule { }
